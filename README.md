@@ -24,9 +24,9 @@ encode.setEncoding('hex');
 
 stream.pipe(encode).pipe(process.stdout);
 
-stream.write(new Buffer([0x7F])); // <Buffer 7f>
-stream.write(new Buffer([0x8F])); // <Buffer 81 0f>
-stream.write(new Buffer([0x12, 0x34])); // <Buffer a4 34>
-stream.write(new Buffer([0x0A, 0xBC])); // <Buffer 95 3c>
+stream.write(new Buffer([0x7F])); // 7f
+stream.write(new Buffer([0x8F])); // 810f
+stream.write(new Buffer([0x12, 0x34])); // a434
+stream.write(new Buffer([0x0A, 0xBC])); // 953c
 ```
 
