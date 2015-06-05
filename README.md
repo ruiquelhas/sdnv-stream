@@ -13,13 +13,13 @@ $ npm install sdnv-stream
 ```javascript
 var sdnv = require('sdnv-stream');
 
-// Were, we use "through2" to setup the piping
+// I'm using "through2" to setup the piping
 var through = require('through2');
 
 var stream = through();
 
 var encode = sdnv();
-// Let's set an encoding which allows the result to be displayed
+// Set an encoding which allows the output to be displayed
 encode.setEncoding('hex');
 
 stream.pipe(encode).pipe(process.stdout);
