@@ -1,16 +1,16 @@
 {
   "name": "sdnv-stream",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "SDNV read/write stream.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "lab": "^5.0.3"
-  },
   "devDependencies": {
-    "lab": "^5.0.3"
+    "async-each": "^0.1.6",
+    "code": "^1.4.0",
+    "lab": "^5.9.0",
+    "through2": "^0.6.5"
   },
   "scripts": {
     "test": "lab"
