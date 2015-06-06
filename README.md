@@ -1,4 +1,4 @@
-# sdnv-stream
+# sdnv-stream [![Build Status](https://travis-ci.org/ruiquelhas/sdnv-stream.svg)](https://travis-ci.org/ruiquelhas/sdnv-stream) [![Dependencies](https://david-dm.org/ruiquelhas/sdnv-stream.svg)](https://david-dm.org/ruiquelhas/sdnv-stream)
 
 Encode stream data as [SDNVs](http://www.dtnrg.org/wiki/SDNV).
 
